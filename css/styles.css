@@ -3,8 +3,11 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+}
+
 .container {
-    background-image: url(../images/cook.webp);
     height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
@@ -12,6 +15,17 @@
     background-position: center;
     text-align: center;
 
+}
+.toy {
+    background-image: url(../images/cook.webp);
+}
+
+.cat {
+    background-image: url(../images/cat.jpg);
+}
+
+.cooking {
+    background-image: url(../images/bg.jpeg);
 }
 
 .heading {
@@ -21,6 +35,21 @@
     font-size: 2rem;
     background-clip: content-box;
     background-color: maroon;
+}
+
+.list {
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    width: 50%;
+    background-clip: content-box;
+    background-color: rgba(0,0,0,0.5);;
+    margin: auto;
+    padding-top: 5%;    
+}
+
+.egg {
+    margin-top: 1%;
 }
 
 .button {
